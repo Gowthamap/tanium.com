@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.small-top{
+    background-color: #efefef;
+}
+.small-top a{
+    text-decoration: none;
+    color: #646464;
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    outline: none;
+    padding: 9px;
+    display: inline-block;
+}
+nav img{
+    width: 161px;
+    height: 34.5833px;
+}
+
+header{
+    background-image: url(https://www.tanium.com/wp-content/uploads/hero-2021072-optimized.jpg);
+    background-position: 0% -35%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    background-size: contain;
+    object-fit: cover;
+
+}
+header h6{
+    color: #000000 !important;
+    opacity: 0.9;
+    font-size: 20px;
+    line-height: 1.3;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    font-weight: 200;
+}
+header .btn1{
+    background-color:#a3232c;
+    font-size: 11px;
+    border: none;
+    border-radius: 3px;
+}
+header .btn1:hover{
+    background-color: hsl(357, 87%, 25%);
+    transition: 0.9s;
+}
+
+header .btn2{
+    color: #a3232c;
+    font-size: 11px;
+    border: 1px solid #a3232c;
+    border-radius: 3px;
+    background-color: transparent;
+}
+header .btn2:hover{
+    background-color: #a3232c;
+    color: white;
+    transition: 0.9s;
+}
+.one h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+.one h3{
+    font-size: 30px;
+    font-weight: 100 !important;
+}
+.one .row img{
+    width: 100%;
+}
+.one .row p{
+    font-weight: 100;
+}
+.one .row small{
+    line-height: 1vh;
+}
+.one .row button{
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #a3232c;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 7px 19px;
+    border: 1px solid #a3232c;
+    border-radius: 3px;
+}
+.one .row button:hover{
+    background-color: #a3232c;
+    color: white;
+    transition: 0.5s ;
+}
+.two h2{
+    font-size: 40px;
+    font-weight: 100;  
+}
+.three{
+    background-color: #A3232C;
+}
+.four img{
+    width: 146px;
+    height: 37px;
+}
+.five .col-10{
+    background-color: #efefef;
+}
+.five img{
+    width: 205px;
+    height: 185px;
+}
+.seven img{
+    width: 60%;
+    height: 100px;
+}
+.seven .checked{
+    color: orange;
+}
+.seven .str{
+    font-size: 14px;
+    margin-left: -10px;
+}
+.eight .line{
+    line-height: 18px;
+    color: rgb(66, 62, 62);
+}
+.eight .footer h6{
+    color: #a3232c;
+    text-transform: uppercase;
+    font-size: smaller;
+}
+.eight img{
+    width: 80%;
+    height: 200px
+}
+.nine{
+    background-image: url(https://www.tanium.com/wp-content/uploads/BG-No-Dots-Desktop.png);
+    background: linear-gradient(180deg, rgba(163,35,44,1) 40%, rgba(236,52,48,1) 100%) !important;
+}
+.nine button{
+    text-transform: uppercase;
+    color: rgba(163,35,44,1);
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+}
+.nine button:hover{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.9s ease-in-out;
+}
+.nine button:hover{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 2s ease;
+}
+.ten{
+    background-color: #323232;
+}
+.ten img{
+    width: 150px;
+}
+.ten button{
+    border-radius: 50%;
+    border: 1px solid transparent;
+    color: white;
+    background-color: grey;
+}
+.ten a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 9px;
+}
+.ten .text-danger{
+    font-size: 10px;
+}
+footer{
+    background-color: #efefef;
+}
+footer .one{
+    line-height: 4px;
+}
+footer .lead{
+    border-bottom: 1px solid black;
+}
+.copyright .small{
+    font-size: 12px;
+}
+.copyright .fw-bold{
+    font-size: 12px;
+}
+
+@media screen and (max-width: 575.98px){
+header{
+    background-image: none;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 35vh;
+/*     background-size: contain;
+    object-fit: cover;  */
+    text-transform: capitalize;
+}
+
+header h6{
+    color: #000000 !important;
+    opacity: 0.9;
+    font-size: 15pxpx;
+    line-height: 1.3;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    font-weight: 200;
+    
+}
+header .btn1{
+    background-color: maroon;
+    font-size: 11px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+header .btn1:hover{
+    background-color: white;
+    color: maroon !important;
+    border: 1px solid maroon;
+    transition: 0.9s;
+}
+
+header .btn2{
+    color: #a3232c;
+    font-size: 11px;
+    border: 1px solid #a3232c;
+    border-radius: 3px;
+    background-color: transparent;
+}
+header .pt-5{
+    padding-top: 0 !important;
+}
+  
+.one .row img{
+    width: 50% !important;
+}
+
+.one .row .spc{
+    width: 100% !important;
+}
+}
+
+    
